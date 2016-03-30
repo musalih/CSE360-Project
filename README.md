@@ -1,6 +1,6 @@
 # CSE360 Project
 
-Team Members:
+Team Members:  
 Raheem Syed  
 Mustafa Salih  
 Tareq Azzouni  
