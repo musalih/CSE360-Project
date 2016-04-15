@@ -2,8 +2,7 @@
 
 Team Members:  
 Raheem Syed - syedraheem  
-Mustafa Salih  
+Mustafa Salih - musalih  
 Tareq Azzouni  - tazzouni  
 Tariq Bayounis - TariqAB  
-Mohammad Yagoub  
-
+Mohammad Yagoub - MohammadYagoub 
