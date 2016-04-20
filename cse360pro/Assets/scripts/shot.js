@@ -25,7 +25,12 @@ function Update ()
  	
 	if(Input.GetButtonDown("Fire1") )
 	{
-		if(turn)
+		shoot();
+	}
+}
+function shoot()
+{
+	if(turn)
 		{
 			var instanceBullet = Instantiate (prefab_sphere, player1Gun.position, player1Gun.rotation);
 			instanceBullet.GetComponent.<Rigidbody>().AddForce(player1Gun.forward*shootForce);
@@ -38,5 +43,4 @@ function Update ()
 		}
 		
 		turn = !turn;
-	}
 }

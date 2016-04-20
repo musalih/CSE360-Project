@@ -47,7 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\DiceController.js" />
+     <Compile Include="Assets\scripts\LivesKeeper.js" />
+     <Compile Include="Assets\scripts\TitleController.js" />
+     <Compile Include="Assets\scripts\blueGotShot.js" />
+     <Compile Include="Assets\scripts\forceController.js" />
      <Compile Include="Assets\scripts\projectile.js" />
+     <Compile Include="Assets\scripts\redGotShot.js" />
+     <Compile Include="Assets\scripts\removeBulletOnTrigger.js" />
      <Compile Include="Assets\scripts\shot.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

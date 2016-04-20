@@ -2,8 +2,8 @@
 var dice : Transform; // Drag the prefab_Sphere to this slot
 
 var rollForce: float = 10;  // Type some value near 1000 in the slot
-var mybool: boolean;
-var result: boolean;
+private var mybool: boolean;
+private var result: boolean;
 var show: int;
 var time: int;
 var tim: int;

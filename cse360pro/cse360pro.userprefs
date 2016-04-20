@@ -1,8 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\die.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\DiceController.js">
     <Files>
-      <File FileName="Assets\scripts\die.js" Line="51" Column="1" />
+      <File FileName="Assets\scripts\LivesKeeper.js" Line="83" Column="18" />
+      <File FileName="Assets\scripts\redGotShot.js" Line="5" Column="2" />
+      <File FileName="..\..\_Sophmore\#Fall2016\CPI211\project\CPI 211 Week 12-starter\Assets\Scripts\EnemyTriggerMonster.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\removeBulletOnTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\blueGotShot.js" Line="12" Column="29" />
+      <File FileName="Assets\scripts\DiceController.js" Line="12" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
