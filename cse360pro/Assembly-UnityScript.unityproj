@@ -46,15 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\DiceController.js" />
-     <Compile Include="Assets\scripts\LivesKeeper.js" />
-     <Compile Include="Assets\scripts\TitleController.js" />
-     <Compile Include="Assets\scripts\blueGotShot.js" />
-     <Compile Include="Assets\scripts\forceController.js" />
-     <Compile Include="Assets\scripts\projectile.js" />
-     <Compile Include="Assets\scripts\redGotShot.js" />
-     <Compile Include="Assets\scripts\removeBulletOnTrigger.js" />
-     <Compile Include="Assets\scripts\shot.js" />
+     <Compile Include="Assets\_scripts\DiceController.js" />
+     <Compile Include="Assets\_scripts\LivesKeeper.js" />
+     <Compile Include="Assets\_scripts\TitleController.js" />
+     <Compile Include="Assets\_scripts\blueGotShot.js" />
+     <Compile Include="Assets\_scripts\forceController.js" />
+     <Compile Include="Assets\_scripts\projectile.js" />
+     <Compile Include="Assets\_scripts\redGotShot.js" />
+     <Compile Include="Assets\_scripts\removeBulletOnTrigger.js" />
+     <Compile Include="Assets\_scripts\shot.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/UNITY/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
