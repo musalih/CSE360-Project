@@ -1,10 +1,19 @@
-﻿#pragma strict
+﻿import System.IO;
+import System;
+
+
+#pragma strict
 var redPlayerHP: UI.Image[];
 var bluePlayerHP: UI.Image[];
 var blueWonText: UI.Text;
 var blueLostText: UI.Text;
 var redWonText: UI.Text;
 var redLostText: UI.Text;
+
+var blueWonRecord: UI.Text;
+var blueLostRecord: UI.Text;
+var redWonRecord: UI.Text;
+var redLostRecord: UI.Text;
 
 var dice: GameObject;
 var damage: int;
@@ -22,6 +31,13 @@ function Start () {
 	blueLost = 0;
 	redWon = 0;
 	redLost = 0;
+		
+		
+
+	blueWonRecord.text = "Wins: " + PlayerPrefs.GetInt("BlueRec1");
+	blueLostRecord.text = "Loss: " + PlayerPrefs.GetInt("BlueRec2");
+	redWonRecord.text = "Wins: " + PlayerPrefs.GetInt("RedRec1");
+	redLostRecord.text = "Loss: " + PlayerPrefs.GetInt("RedRec2");
 }
 
 function Update () {
@@ -91,8 +107,36 @@ function blueGotShot()
 
 function updateScore()
 {
+
 	blueWonText.text = "WON: " + blueWon;
 	blueLostText.text = "LOST: " + blueLost;
 	redWonText.text = "WON: " + redWon;
 	redLostText.text = "LOST: " + redLost;
+	
 }
+
+function OnDestroy(){
+
+	PlayerPrefs.SetInt("BlueRec1", blueWon);
+	PlayerPrefs.SetInt("BlueRec2", blueLost);
+	PlayerPrefs.SetInt("RedRec1", redWon);
+	PlayerPrefs.SetInt("RedRec2", redLost);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
