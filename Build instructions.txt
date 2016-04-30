@@ -5,4 +5,5 @@ https://github.com/musalih/CSE360-Project
 2) Download the "360Project_Data" folder and "360Project.exe" file
 3) Place downloaded files in the same directory.
 4) Run the exe file
-5) Play Game
+5) Run the game in "Windowed" mode
+6) Play Game
